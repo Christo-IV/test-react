@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+}
+tr{
+    margin-top: 2%;
+    
+}
+
+td{
+    border: 1px solid rgb(88, 88, 88);
+    text-align: center;
+    border-radius:  0px 5px;
+}
+
+.time{
+    width: 10%;
+}
