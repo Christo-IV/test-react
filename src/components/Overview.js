@@ -1,24 +1,28 @@
 import "./css/Overview.css";
 import placeholderImg from "../img/ITALOGO.jpg";
 
-function Overview() {
+function Overview({ speciality }) {
+  function getImg() {
+    fetch(`img/${speciality.img}`, {
+      headers: {
+        Accept:
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      },
+    }).then((response) => {
+      return response;
+    });
+  }
+
   return (
     <div className="overview flex f-col">
       <div className="info flex f-col shadow">
         <img
           className="stock-img shadow"
           src={placeholderImg}
-          alt="IT person in their natural habitat"
+          alt={speciality.alt}
         />
-        <h2 className="speciality-name shadow">
-          &lt; Name of speciality here &gt;
-        </h2>
-        <p className="desc shadow">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
-          cumque distinctio voluptates dignissimos voluptatibus ullam expedita
-          incidunt illum excepturi voluptate ipsa, nostrum dolorem animi
-          recusandae perspiciatis corporis? Nostrum, mollitia pariatur.
-        </p>
+        <h2 className="speciality-name shadow">{speciality.title}</h2>
+        <p className="desc shadow">{speciality.desc}</p>
       </div>
       <button className="apply-btn shadow">Sisseastumine</button>
     </div>
