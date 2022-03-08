@@ -1,0 +1,30 @@
+.overview {
+  height: 100%;
+  border: 1px dashed green;
+  padding: 1rem;
+}
+
+.info {
+  gap: 0.5rem;
+  height: 80%;
+}
+
+.info > h2,
+.apply-btn {
+  font-weight: 300;
+}
+
+.overview,
+.info > h2,
+.info > .desc,
+.apply-btn {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.apply-btn {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 0;
+  background-color: var(--highlight-color);
+  font-size: 1.2rem;
+}
