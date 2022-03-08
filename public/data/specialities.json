@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Noorem tarkvaraarendaja",
+    "abbreviation": "ITA",
+    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cumque distinctio voluptates dignissimos voluptatibus ullam expedit incidunt illum excepturi voluptate ipsa, nostrum dolorem animi recusandae perspiciatis corporis? Nostrum, mollitia pariatur.",
+    "img": "ITALOGO.jpg",
+    "alt": "Tarkvaraarendaja arendamas tarkvara"
+  },
+  {
+    "title": "IT-süsteemide spetsialist",
+    "abbreviation": "ITS",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, consequatur sed. Sed unde maiores at quam qui, et corrupti ad omnis possimus minus odio doloremque, vitae aliquid est voluptatum reprehenderit.",
+    "img": "ITSLOGOS.jpg",
+    "alt": "Spetsialist"
+  }
+]
