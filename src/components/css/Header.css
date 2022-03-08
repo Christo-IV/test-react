@@ -17,13 +17,19 @@ header {
 }
 
 .navbar.bottom {
-  padding: 1rem 7.2rem;
+  padding: 0.2rem 7.2rem;
   background-color: var(--txt-color);
   justify-content: space-between;
 }
 
-.nav-links,
-.nav-imgs {
+@media only screen and (max-width: 750px) {
+  .navbar.bottom {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.nav-links {
   list-style: none;
   gap: 1rem;
 
@@ -31,16 +37,13 @@ header {
 }
 
 .nav-link > a {
+  font-weight: 500;
+  text-decoration: none;
   transition: opacity 0.2s;
 }
 
-.nav-link > a:hover {
-  opacity: 0.8;
-}
-
-.nav-link > a {
-  font-weight: 500;
-  text-decoration: none;
+.nav-link > .img-link {
+  font-size: 1.3rem;
 }
 
 .navbar.top .nav-link > a {
@@ -49,6 +52,14 @@ header {
 
 .navbar.bottom .nav-link > a {
   color: var(--negative-txt-color);
+}
+
+.navbar.top .nav-link > a:hover {
+  opacity: 0.6;
+}
+
+.navbar.bottom .nav-link > a:hover {
+  opacity: 0.8;
 }
 
 .navbar.bottom > .logo {

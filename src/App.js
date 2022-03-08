@@ -9,7 +9,7 @@ function App() {
       <Header />
       <div className="container">
         <Landing />
-        <section className="page-section IT-paths flex f-center">
+        <section className="page-section IT-paths flex f-center" id="itPaths">
           <div class="grouping flex f-center">
             <Overview />
             <Overview />
