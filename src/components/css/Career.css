@@ -1,74 +1,73 @@
-
-.part1{
-    display:flex;
-    padding:0;
+.part1 {
+  display: flex;
+  padding: 0;
+  margin-top: 12rem;
 }
 
-
-.careerpicture{
-    width: 70%;
+.careerpicture {
+  width: 70%;
 }
 
-.why{
-    color: white;
-    padding: 2%;
-    margin-left:2%;
-    width: 28%;
-    background-color:black;
+.why {
+  color: white;
+  padding: 2%;
+  margin-left: 2%;
+  width: 28%;
+  background-color: black;
 }
 
-.part2{
-    margin-top: 2%;
-    display:flex;
-    width: 70%;
-    margin-left: 2%;
-    margin-right: 2%;
-    flex-direction: column;
-    margin-bottom: 10%;
+.part2 {
+  margin-top: 2%;
+  display: flex;
+  width: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-direction: column;
+  margin-bottom: 10%;
 }
 
-.careername{
-    width: 60%;
-    background-color: rgb(255, 255, 255);
-    text-align: Center;
-    align-self: Center;
-    font-size: 30px;
+.careername {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  text-align: Center;
+  align-self: Center;
+  font-size: 30px;
 }
 
-.careerintro{
-    margin-top: 2%;
-    width: 90%;
-    height: relative;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    align-self: Center;
-    font-size: 10px;
-    
+.careerintro {
+  margin-top: 2%;
+  width: 90%;
+  height: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  align-self: Center;
+  font-size: 10px;
 }
 
-.careerintro h2,h1{
-    margin-top: 2%;
+.careerintro h2,
+h1 {
+  margin-top: 2%;
 }
 
-.careerintro li{
-    font-size: 15px;
-    margin-top: 0.5%;
+.careerintro li {
+  font-size: 15px;
+  margin-top: 0.5%;
 }
 
-.careerintro .alert{
-    background-color: palevioletred;
-    border-radius: 25px;
-    padding: 1%;
-    width: 60%;
-    list-style: none;
+.careerintro .alert {
+  background-color: palevioletred;
+  border-radius: 25px;
+  padding: 1%;
+  width: 60%;
+  list-style: none;
 }
 
-.applybut a{
-    margin-left: 7%;
-    padding-left: 2%;
-    padding-Right: 2%;
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    background-color: #90EE90;
+.applybut a {
+  margin-left: 7%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #90ee90;
 }
