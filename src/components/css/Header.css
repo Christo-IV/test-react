@@ -1,0 +1,49 @@
+.navbar {
+  width: 100vw;
+}
+
+.navbar.top {
+  padding: 1rem;
+  background-color: var(--bg-color);
+  justify-content: left;
+  gap: 1.7rem;
+}
+
+.navbar.bottom {
+  padding: 1rem 7.2rem;
+  background-color: var(--txt-color);
+  justify-content: space-between;
+}
+
+.nav-links,
+.nav-imgs {
+  list-style: none;
+  gap: 1rem;
+
+  align-items: center;
+}
+
+.nav-link > a {
+  transition: opacity 0.2s;
+}
+
+.nav-link > a:hover {
+  opacity: 0.8;
+}
+
+.nav-link > a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar.top .nav-link > a {
+  color: var(--txt-color);
+}
+
+.navbar.bottom .nav-link > a {
+  color: var(--negative-txt-color);
+}
+
+.navbar.bottom > .logo {
+  height: 6rem;
+}
