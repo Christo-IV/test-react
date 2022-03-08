@@ -1,0 +1,16 @@
+.it-academy-logo {
+  width: min(30rem, 100%);
+  margin: 0 auto;
+  object-fit: cover;
+  padding: 1rem 2rem;
+}
+
+.introduction {
+  width: 80%;
+  margin: 3rem 0;
+}
+
+.video {
+  width: 80%;
+  aspect-ratio: 16/9;
+}

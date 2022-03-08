@@ -1,3 +1,4 @@
+/* CSS Reset */
 *,
 *::before,
 *::after {
@@ -6,6 +7,17 @@
   box-sizing: border-box;
 }
 
+/* Scrollbar CSS */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--txt-color);
+}
+
+/* Generic Flex classes */
 .flex {
   display: flex;
 }
@@ -18,6 +30,31 @@
   flex-direction: column;
 }
 
-.app {
-  overflow-x: hidden;
+.flex.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* General Page structure */
+.container {
+  width: min(1200px, 95vw);
+  margin: 12rem auto 0 auto;
+}
+
+.page-section {
+  height: 100vh;
+  width: 100%;
+}
+
+/* --------------- */
+/* Landing section */
+/* --------------- */
+
+/* ----------------- */
+/* IT pathes section */
+/* ----------------- */
+
+.grouping {
+  gap: 6rem;
+  height: 100%;
 }
