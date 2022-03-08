@@ -1,0 +1,15 @@
+.imagetextcontainer{
+    display:flex;
+
+}
+
+
+.careerpicture{
+    width: 70%;
+}
+
+.why{
+    margin-left:2%;
+    width: 28%;
+    background-color:black;
+}

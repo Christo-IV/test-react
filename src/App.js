@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-
+import Career from "./components/Career";
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
         <img src="#" alt="IT robo bro" className="robo-bro" />
       </section>
       <section className=""></section>
+      <Career />
     </div>
   );
 }
