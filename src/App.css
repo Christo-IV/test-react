@@ -1,3 +1,4 @@
+/* CSS Reset */
 *,
 *::before,
 *::after {
@@ -6,6 +7,17 @@
   box-sizing: border-box;
 }
 
+/* Scrollbar CSS */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--txt-color);
+}
+
+/* Generic Flex classes */
 .flex {
   display: flex;
 }
@@ -23,9 +35,9 @@
   align-items: center;
 }
 
+/* General Page structure */
 .container {
   width: min(1200px, 95vw);
-  border: 1px solid red;
   margin: 12rem auto 0 auto;
 }
 

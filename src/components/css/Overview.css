@@ -1,27 +1,50 @@
 .overview {
-  height: 100%;
-  border: 1px dashed green;
-  padding: 1rem;
+  height: min(50rem, 100%);
+  max-width: 25rem;
+}
+
+.shadow {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .info {
+  background-color: var(--bg-color);
+  background-image: url("../../img/ITABG.png");
+  background-size: auto 90%;
   gap: 0.5rem;
   height: 80%;
+  padding: 1rem;
 }
 
-.info > h2,
+.info > .speciality-name,
+.info > .desc {
+  background-color: var(--negative-txt-color);
+  padding: 1rem;
+}
+
+.info > .desc {
+  height: min(fit-content, 100%);
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+}
+
+.info > .speciality-name,
 .apply-btn {
   font-weight: 300;
 }
 
-.overview,
-.info > h2,
-.info > .desc,
-.apply-btn {
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+.info > img {
+  object-fit: cover;
+  height: auto;
+  width: 12rem;
+  margin: 0 auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
 }
 
 .apply-btn {
+  margin-top: 2rem;
   width: 100%;
   padding: 1rem 2rem;
   border: 0;
