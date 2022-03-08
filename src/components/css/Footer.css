@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  font-weight: 700;
+}
+
+.footer-top {
+  gap: 3rem;
+  color: var(--negative-txt-color);
+  background-color: var(--txt-color);
+  padding: 4.7em 0.2rem;
+}
+
+.footer-top > .column {
+  gap: 0.8rem;
+}
+
+.footer-top h3 {
+  font-size: 18px;
+  margin-bottom: 0.6rem;
+}
+
+.footer-top p,
+.footer-top a {
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-top a {
+  transition: opacity 0.2s;
+}
+
+.footer-top a:hover {
+  opacity: 0.8;
+}
+
+.footer-bottom {
+  padding: 1.8rem;
+}

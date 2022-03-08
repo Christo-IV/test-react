@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
 import ItPaths from "./components/ItPaths";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Landing />
         <ItPaths />
       </div>
+      <Footer />
     </div>
   );
 }
