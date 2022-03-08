@@ -23,6 +23,7 @@
 }
 
 .info > .desc {
+  font-size: 1.1rem;
   height: min(fit-content, 100%);
   width: 100%;
   text-overflow: ellipsis;
