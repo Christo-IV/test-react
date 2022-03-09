@@ -23,7 +23,7 @@ function Overview({ speciality }) {
           alt={speciality.alt}
         />
         <h2 className="speciality-name shadow">{speciality.title}</h2>
-        <p className="desc shadow">{speciality.desc}</p>
+        <p className="desc shadow">{speciality.shortDesc}</p>
       </div>
       <Link
         to={`/career/${speciality.abbreviation}`}

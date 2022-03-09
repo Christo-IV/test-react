@@ -2,15 +2,38 @@
   {
     "title": "Noorem tarkvaraarendaja",
     "abbreviation": "ITA",
-    "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cumque distinctio voluptates dignissimos voluptatibus ullam expedit incidunt illum excepturi voluptate ipsa, nostrum dolorem animi recusandae perspiciatis corporis? Nostrum, mollitia pariatur.",
+    "shortDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cumque distinctio voluptates dignissimos voluptatibus ullam expedit incidunt illum excepturi voluptate ipsa, nostrum dolorem animi recusandae perspiciatis corporis? Nostrum, mollitia pariatur.",
     "img": "ITALOGO.jpg",
     "alt": "Tarkvaraarendaja arendamas tarkvara"
   },
   {
     "title": "IT-süsteemide spetsialist",
     "abbreviation": "ITS",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, consequatur sed. Sed unde maiores at quam qui, et corrupti ad omnis possimus minus odio doloremque, vitae aliquid est voluptatum reprehenderit.",
     "img": "ITSLOGOS.jpg",
-    "alt": "Spetsialist"
+    "alt": "Spetsialist",
+    "shortDesc": "IT-süsteemide spetsialist on hinnatud ning laiahardega spetsialist kogu maailmas. IT-süsteemide spetsialisti õpilasena on Su nädal alati sisustatud ning igavlema ei pea.",
+    "longDesc": "IT-süsteemide spetsialist on hinnatud ning laiahardega spetsialist kogu maailmas. IT-süsteemide spetsialisti õpilasena on Su nädal alati sisustatud ning igavlema ei pea. Tegeled IT-taritu arendamisega ja arvutisüsteemidega, kuid Sulle ei jää võõraks ka kood. Samuti julgustab VOCO IKT-osakond alati õpilasi tegelema oma projektidega ning saama kogemust väljapoolt kooli. Muidugi on selleks ka prakitikad, kuid miks mitte teha midagi lahedat koos tiimiga või iseseisvalt? Muidugi ei puudu erialased võistlused nii kooli siseselt kui ka üle Eesti. Miks mitte panna ennast vahel proovile? Õpilasena on Sul võimalus kaasarääkida oma õppekava raames ning anda õpetajatele tagasisidet. VOCO IT Akadeemia erialade õpetajad hindavad kõrgelt pealehakkamist ning aktiivust. Jah, Sa võid isegi tihti ebaõnnestuda aga alati aidatakse Sind püsti ning antakse uus hoog. Kedagi ei jäeta maha. Kui Sul on tahe ja soov olla tuleviku IT-süsteemide spetsialist, siis see eriala on just sulle!",
+    "criteria": [
+      {
+        "point": "individuaalvestlus või grupivestlus;",
+        "link": "",
+        "note": ""
+      },
+      {
+        "point": "kutsesobivustest, mis hindab edukaks erialaseks tööks vajalikke isikuomadusi ja võimekust: matemaatiline võimekus, funktsionaalne lugemisoskus, taju, tähelepanu, keskendumisvõime, mälu;",
+        "link": "",
+        "note": ""
+      },
+      {
+        "point": "praktiline ülesanne – enne vastuvõtu katseid tuleb läbida konkreetne Codecademy kursus",
+        "link": "https://www.codecademy.com/learn/learn-the-command-line",
+        "note": "NB! Kursus on tasuline, kuid seitsme päeva jooksul on võimalik kursust tasuta läbida;"
+      },
+      {
+        "point": "motivatsioonikiri – palume motivatsioonikirja lõppu lisada Codecademy kasutajanimi.",
+        "link": "",
+        "note": ""
+      }
+    ]
   }
 ]
