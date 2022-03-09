@@ -21,6 +21,7 @@ function Career({ abbr }) {
           console.log(datum);
           if (datum.abbreviation == abbr) {
             setSpeciality(datum);
+           
           }
         });
       });
@@ -30,19 +31,24 @@ function Career({ abbr }) {
     getSpecialities();
     console.log(speciality);
   }, []);
-
+try{
   return (
     <div>
       <Header />
+    
+
       <div class="part1">
         <img class="careerpicture" src={erialapilt} alt="" />
         <div class="why">
-          <h1>{speciality.aside.heading}</h1>
+          <h1>{speciality.aside.heading}</h1> 
           {speciality.aside.points.map((point, index) => {
             return <li key={index}>{point}</li>;
           })}
+         
+         
         </div>
       </div>
+     
 
       <div class="part2">
         <div class="careername">
@@ -111,6 +117,9 @@ function Career({ abbr }) {
       <Footer />
     </div>
   );
+} catch(error){
+  console.log(error);
+}
 }
 
 export default Career;
