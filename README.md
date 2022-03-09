@@ -4,15 +4,36 @@
 
 ![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
 
-<p align="center">
-**Team members**  |
-------------- |
-Henry-Gerret Grüning  |
-Christo Vahtamäe  |
-Andreas Alexander Sütt |
-Sander Paasalu  |
-Anette Aguraiuja  |
-</p>
+## The Team
+
+<table align="center">
+  <tbody>
+    <tr>
+    <th>Member</th>
+    <th>Specialty</th>
+  </tr>
+    <tr>
+    <td>Henry-Gerret Grüning</td>
+    <td>Design / Frontend</td>
+  </tr>
+  <tr>
+    <td>Christo Vahtramäe</td>
+    <td>Frontend</td>
+  </tr>
+    <tr>
+    <td>Andreas Alexander Sütt</td>
+    <td>Fullstack</td>
+  </tr>
+  <tr>
+    <td>Sander Paasalu</td>
+    <td>Fullstack</td>
+  </tr>
+    <tr>
+    <td>Anette Aguraiuja</td>
+    <td>Project manager / Team Lead</td>
+  </tr>
+  </tbody>
+</table>
 
 ## Design consepts
 
@@ -25,6 +46,12 @@ Anette Aguraiuja  |
 
 This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend.
 Website users can see **hype text** about these two IT Academy specific courses. They can also see weekly timetables.
+
+## Install dependencies
+
+```
+npm install
+```
 
 ## Getting Started with Create React App
 
