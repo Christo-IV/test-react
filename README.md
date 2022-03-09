@@ -5,13 +5,34 @@
 ![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
 
 <p align="center">
-**Team members**  |
-------------- |
-Henry-Gerret Grüning  |
-Christo Vahtamäe  |
-Andreas Alexander Sütt |
-Sander Paasalu  |
-Anette Aguraiuja  |
+<table>
+  <tbody>
+    <tr>
+    <th>Member</th>
+    <th>Specialty</th>
+  </tr>
+    <tr>
+    <td>Henry-Gerret Grüning</td>
+    <td>Design / Frontend</td>
+  </tr>
+  <tr>
+    <td>Christo Vahtramäe</td>
+    <td>Frontend</td>
+  </tr>
+    <tr>
+    <td>Andreas Alexander Sütt</td>
+    <td>Fullstack</td>
+  </tr>
+  <tr>
+    <td>Sander Paasalu</td>
+    <td>Fullstack</td>
+  </tr>
+    <tr>
+    <td>Anette Aguraiuja</td>
+    <td>Project manager / Team Lead</td>
+  </tr>
+  </tbody>
+</table>
 </p>
 
 ## Design consepts
