@@ -7,7 +7,6 @@ import Career2 from "./components/Career2";
 import Footer from "./components/Footer";
 import Timetable from "./components/Timetable";
 
-
 function App() {
   return (
     <div className="App">
@@ -15,9 +14,7 @@ function App() {
       <div className="container">
         <Landing />
         <ItPaths />
-<Career/>
-<Career2/>
-<Timetable/>
+        <Timetable />
       </div>
       <Footer />
     </div>

@@ -25,7 +25,10 @@ function Overview({ speciality }) {
         <h2 className="speciality-name shadow">{speciality.title}</h2>
         <p className="desc shadow">{speciality.desc}</p>
       </div>
-      <Link to="/career" className="apply-btn shadow">
+      <Link
+        to={`/career/${speciality.abbreviation}`}
+        className="apply-btn shadow"
+      >
         Sisseastumine
       </Link>
     </div>
