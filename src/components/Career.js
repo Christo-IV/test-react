@@ -12,11 +12,11 @@ function Career() {
         <img class="careerpicture" src={erialapilt} alt="" />
         <div class="why">
           <h1>MIKS VALIDA TARKVARAARENDUS?</h1>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
+          <li>Parimad praktikad</li>
+          <li>Hea meeskonnatöö</li>
+          <li>Oma ala spetsialistid</li>
+          <li>Välispraktika võimalus</li>
+          <li>Kindel tulevik</li>
         </div>
       </div>
 
@@ -59,7 +59,12 @@ function Career() {
             praktiline ülesanne – enne vastuvõtu katseid tuleb läbida konkreetne
             Codecademy kursus:
           </li>
-          <a target="_blank" href="https://www.codecademy.com/learn/learn-python-3">https://www.codecademy.com/learn/learn-python-3</a>
+          <a
+            target="_blank"
+            href="https://www.codecademy.com/learn/learn-python-3"
+          >
+            https://www.codecademy.com/learn/learn-python-3
+          </a>
           <li class="alert">
             NB! Kursus on tasuline, kuid seitsme päeva jooksul on võimalik
             kursust tasuta läbida
