@@ -39,7 +39,7 @@ function Timetable() {
         <div className="App">
             {data ? (
                 <div>
-                
+                <h1>Tunniplaan</h1>
                     <table>
                         <tbody >
                         <tr >

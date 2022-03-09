@@ -21,7 +21,10 @@ import "./css/Events.css";
            <li class="outside">TEDxTartu 02.04.2022</li>
            <li class="outside">Kaleidoskoop 05.05.2022</li>
            <li class="outside">sTARTUp Day 24.08.2022 - 26.08.2022</li>
-           
+           <div class="legend">
+           <h1 class="school">● - Koolisisene</h1>
+           <h1 class="outside">● - Kooliväline</h1>
+           </div>
        </div>
        </div>
        </div>
