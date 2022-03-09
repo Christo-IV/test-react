@@ -3,15 +3,15 @@
   font-weight: 700;
 }
 
-img{
-  width: 5%;
-}
-
 .footer-top {
   gap: 3rem;
   color: var(--negative-txt-color);
   background-color: var(--txt-color);
   padding: 4.7em 0.2rem;
+}
+
+.footer-top img {
+  width: 7rem;
 }
 
 .footer-top > .column {

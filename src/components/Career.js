@@ -4,15 +4,12 @@ import erialapilt from "../img/ITALOGO.jpg";
 import Header from "./Header";
 import Footer from "./Footer";
 
-
-
-
 function Career() {
   return (
     <div>
       <Header />
       <div class="part1">
-        <img class="careerpicture" src={erialapilt} />
+        <img class="careerpicture" src={erialapilt} alt="" />
         <div class="why">
           <h1>MIKS VALIDA TARKVARAARENDUS?</h1>
           <li>See on lahe</li>
@@ -72,10 +69,13 @@ function Career() {
           </li>
         </div>
         <div class="button" id="button-7">
-            <div id="dub-arrow">
-              <img src="https://cdn-icons-png.flaticon.com/512/2942/2942924.png" alt="" />
-            </div>
-            <a href="#">ASTU SISSE!</a>
+          <div id="dub-arrow">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2942/2942924.png"
+              alt=""
+            />
+          </div>
+          <a href="#">ASTU SISSE!</a>
         </div>
       </div>
       <Footer />
