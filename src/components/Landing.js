@@ -10,10 +10,11 @@ function Landing() {
         alt="IT akadeemia logo"
       />
       <p className="introduction">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-        facere ea cumque saepe consequatur placeat delectus, architecto
-        perferendis atque non expedita voluptates necessitatibus quasi ullam
-        nemo modi maiores sunt repudiandae.
+        IT Akadeemia programm on Eesti riigi, ülikoolide ja IKT sektori
+        ettevõtete koostööprogramm. Eesmärk on õpetada välja uusi IT valdkonna
+        spetsialiste, kes suudaksid olla edukad nii Eestis kui ka välismaal.
+        Meie koolis, VOCOs, on kaks IT Akadeemia eriala, mille vahel saab
+        valida. Anna stardipauk oma tulevikule!
       </p>
       <iframe
         className="video"
