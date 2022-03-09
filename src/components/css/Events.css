@@ -1,0 +1,18 @@
+h1{
+    text-align:center;
+}
+.school{
+    color: rgb(106, 207, 106);
+}
+.outside{
+    color: rgb(194, 92, 92);
+}
+
+li{
+    font-size: 20px;
+}
+
+.white{
+    color:var(--negative-txt-color);
+font-weight: lighter;
+}
