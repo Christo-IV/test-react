@@ -3,6 +3,10 @@
   font-weight: 700;
 }
 
+img{
+  width: 5%;
+}
+
 .footer-top {
   gap: 3rem;
   color: var(--negative-txt-color);

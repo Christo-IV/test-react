@@ -1,10 +1,11 @@
 import "./css/Footer.css";
+import voco from "../img/vocotiny.png";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="footer-top flex f-row f-center">
-        <img src="#" alt="Tartu Rakendusliku Kolledži logo" />
+        <img src={voco} alt="Tartu Rakendusliku Kolledži logo" />
         <div className="column flex f-col">
           <h3>Kontakt</h3>
           <p>info@voco.ee</p>
@@ -22,7 +23,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom flex f-row f-center">
-        <p>&copy; COLLEGE OF WINTERHOLD 4E 201</p>
+        <p>&copy; TARTU RAKENDUSLIK KOLLEDŽ 2022</p>
       </div>
     </div>
   );

@@ -1,5 +1,10 @@
 # Aasta Tegija 2022
 
+![IT Akadeemia](https://opik.fyysika.ee/media/img/exp/id-306115.v-2coxx.w-1400.png)
+
+![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
+
+<p align="center">
 **Team members**  |
 ------------- |
 Henry-Gerret Grüning  |
@@ -7,10 +12,18 @@ Christo Vahtamäe  |
 Andreas Alexander Sütt |
 Sander Paasalu  |
 Anette Aguraiuja  |
+</p>
+
+## Design consepts
+
+<p align="center">
+  <img width="233" height="512" src="https://i.ibb.co/TwMfs8r/1.png">
+  <img width="512" height="369" src="https://i.ibb.co/JcdV05r/2.png">
+</p>
 
 ## Description
 
-This project is made with **React** and runs in localhost. It is a website for VOCO IT Academy courses young people without higher education can attend.
+This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend.
 Website users can see **hype text** about these two IT Academy specific courses. They can also see weekly timetables.
 
 ## Getting Started with Create React App
