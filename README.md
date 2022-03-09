@@ -47,6 +47,12 @@
 This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend.
 Website users can see **hype text** about these two IT Academy specific courses. They can also see weekly timetables.
 
+## Install dependencies
+
+```
+npm install
+```
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
