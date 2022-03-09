@@ -4,7 +4,7 @@ import voco from "../img/vocotiny.png";
 function Footer() {
   return (
     <div className="footer">
-      <div className="footer-top flex f-row f-center">
+      <div className="footer-top flex">
         <img src={voco} alt="Tartu Rakendusliku Kolledži logo" />
         <div className="column flex f-col">
           <h3>Kontakt</h3>
