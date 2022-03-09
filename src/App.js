@@ -17,8 +17,9 @@ function App() {
       <div className="container">
         <Landing />
         <ItPaths />
-        <Timetable />
         <CalendarReturn />
+        <Timetable />
+        
       </div>
       <Footer />
       

@@ -1,3 +1,13 @@
+.calendarcontainer{
+    display:flex;
+    flex-direction: row;
+    
+}
+.eventlist{
+    display:flex;
+    flex-direction: column;
+    margin-left: 1%;
+}
 h1{
     text-align:center;
 }
@@ -15,4 +25,11 @@ li{
 .white{
     color:var(--negative-txt-color);
 font-weight: lighter;
+}
+
+@media (max-width:500px) {
+    .calendarcontainer{
+        flex-direction: column;
+        
+    }
 }
