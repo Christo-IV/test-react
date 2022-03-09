@@ -1,28 +1,52 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./css/Career.css";
 import erialapilt from "../img/ITALOGO.jpg";
 import Header from "./Header";
 import Footer from "./Footer";
 
-function Career() {
+function Career({ abbr }) {
+  const [speciality, setSpeciality] = useState({});
+  function getSpecialities() {
+    fetch("../data/specialities.json", {
+      headers: {
+        "Content-type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        data.map((datum) => {
+          console.log(datum);
+          if (datum.abbreviation == abbr) {
+            setSpeciality(datum);
+          }
+        });
+      });
+  }
+
+  useEffect(() => {
+    getSpecialities();
+    console.log(speciality);
+  }, []);
+
   return (
     <div>
       <Header />
       <div class="part1">
         <img class="careerpicture" src={erialapilt} alt="" />
         <div class="why">
-          <h1>MIKS VALIDA TARKVARAARENDUS?</h1>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
-          <li>See on lahe</li>
+          <h1>{speciality.aside.heading}</h1>
+          {speciality.aside.points.map((point, index) => {
+            return <li key={index}>{point}</li>;
+          })}
         </div>
       </div>
 
       <div class="part2">
         <div class="careername">
-          <h1>TARKVARAARENDAJA</h1>
+          <h1>{speciality.title}</h1>
         </div>
         <div class="careerintro">
           <p>
@@ -59,7 +83,12 @@ function Career() {
             praktiline ülesanne – enne vastuvõtu katseid tuleb läbida konkreetne
             Codecademy kursus:
           </li>
-          <a target="_blank" href="https://www.codecademy.com/learn/learn-python-3">https://www.codecademy.com/learn/learn-python-3</a>
+          <a
+            target="_blank"
+            href="https://www.codecademy.com/learn/learn-python-3"
+          >
+            https://www.codecademy.com/learn/learn-python-3
+          </a>
           <li class="alert">
             NB! Kursus on tasuline, kuid seitsme päeva jooksul on võimalik
             kursust tasuta läbida

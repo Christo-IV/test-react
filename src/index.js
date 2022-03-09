@@ -11,8 +11,8 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/career/ITA" element={<Career />} />
-        <Route path="/career/ITS" element={<Career2 />} />
+        <Route path="/career/ITA" element={<Career abbr="ITA" />} />
+        <Route path="/career/ITS" element={<Career abbr="ITS" />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
