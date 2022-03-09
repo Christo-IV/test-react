@@ -17,8 +17,8 @@ Anette Aguraiuja  |
 ## Design consepts
 
 <p align="center">
-  <img width="500" height="600" src="https://i.ibb.co/TwMfs8r/1.png">
-  <img width="600" height="400" src="https://i.ibb.co/JcdV05r/2.png">
+  <img width="233" height="512" src="https://i.ibb.co/TwMfs8r/1.png">
+  <img width="512" height="369" src="https://i.ibb.co/JcdV05r/2.png">
 </p>
 
 ## Description
