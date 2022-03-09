@@ -1,19 +1,31 @@
+
 table{
     width: 100%;
-}
-tr{
-    margin-top: 2%;
     
 }
 
-td{
-    border: 1px solid rgb(88, 88, 88);
-    text-align: center;
-    border-radius:  0px 5px;
-    background-color:black;
-    color: white;
+th{
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--txt-color);
 }
 
+td{
+    border: 1px dotted rgba(3, 3, 3, 0.329);
+    padding: 10px;
+    text-align: center;
+    color: var(--txt-color);
+    
+    
+
+}
+
+.timebox{
+    background-color: var(--highlight-color);
+    border: 1px solid rgba(3, 3, 3, 0.329);
+    font-weight: bold;
+}
 .time{
     width: 10%;
 }

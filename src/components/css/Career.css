@@ -140,3 +140,64 @@
       width: 50%;
     }
   }
+
+  @media (max-width:1000px) {
+    h1 {
+      font-size: 2.2em;
+    }
+    #container {
+      width: 50%;
+    }
+    .part1{
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .why,.careerpicture{
+      margin: 0px;
+      margin-top: 1%;
+      width:100%;
+    }
+
+    .why h1,li{
+      font-size: 20px;
+      margin-top:0%;
+      text-align:center;
+  }
+  .part2 {
+    width: 100%;
+    margin-top: 1%;
+    padding: 0;
+  }
+
+  .careername{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .careerintro{
+    width: 100%;
+  }
+
+  .careerintro h1,h2,p{
+  
+    margin: 5%;
+    font-size: 15px;
+    
+    
+}
+
+.careerintro li{
+  text-align: left;
+}
+
+
+
+.alert{
+  margin:0;
+  width: 100%;
+}
+
+.button{
+  align-self: center;
+}
+  }
