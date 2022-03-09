@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import ItPaths from "./components/ItPaths";
 import Footer from "./components/Footer";
 import Timetable from "./components/Timetable";
+import CalendarReturn from "./components/CalendarReturn";
 
 
 
@@ -17,8 +18,10 @@ function App() {
         <Landing />
         <ItPaths />
         <Timetable />
+        <CalendarReturn />
       </div>
       <Footer />
+      
     </div>
   );
 }
