@@ -38,8 +38,10 @@ font-weight: lighter;
 }
 
 @media (max-width:500px) {
-    .calendarcontainer{
+    .calendarcontainer,.legend{
         flex-direction: column;
         
     }
+
+    
 }
