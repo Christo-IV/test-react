@@ -55,4 +55,10 @@
   text-decoration: none;
   color: var(--txt-color);
   text-align: center;
+  transition: 0.5s;
+}
+
+.apply-btn:hover{
+  background-color: var(--selected-color);
+  font-size: 1.4rem;
 }

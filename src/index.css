@@ -3,6 +3,8 @@
   --txt-color: #000000;
   --negative-txt-color: #ffffff;
   --highlight-color: #2dc5f4;
+  --selected-color: #33cfff;
+  --alert: #F5A7A3;
 
   font-size: 14px;
 }
