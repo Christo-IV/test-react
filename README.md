@@ -4,6 +4,7 @@
 
 ![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
 
+<p align="center">
 **Team members**  |
 ------------- |
 Henry-Gerret Grüning  |
@@ -11,6 +12,7 @@ Christo Vahtamäe  |
 Andreas Alexander Sütt |
 Sander Paasalu  |
 Anette Aguraiuja  |
+</p>
 
 ## Design consepts
 
