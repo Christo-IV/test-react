@@ -1,6 +1,6 @@
 .overview {
   height: min(50rem, 100%);
-  max-width: 25rem;
+  width: min(25rem, 50%);
 }
 
 .shadow {

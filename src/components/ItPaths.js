@@ -26,7 +26,7 @@ function ItPaths() {
 
   return (
     <section className="page-section IT-paths flex f-center" id="itPaths">
-      <div class="grouping flex f-center">
+      <div class="grouping flex f-row">
         {specialities.map((speciality, index) => {
           return <Overview speciality={speciality} key={index} />;
         })}
