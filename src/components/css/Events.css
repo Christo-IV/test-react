@@ -15,7 +15,7 @@ h1{
     color: rgb(106, 207, 106);
 }
 .outside{
-    color: rgb(194, 92, 92);
+    color: rgb(214, 126, 126);
 }
 
 li{
@@ -25,6 +25,16 @@ li{
 .white{
     color:var(--negative-txt-color);
 font-weight: lighter;
+}
+
+.legend{
+    display:flex;
+    justify-content: row;
+    font-size: 8px;
+}
+.legend h1{
+    font-weight: lighter;
+    margin-left: 2%;
 }
 
 @media (max-width:500px) {
