@@ -4,8 +4,9 @@
 
 ![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
 
-<p align="center">
-<table>
+## The Team
+
+<table align="center">
   <tbody>
     <tr>
     <th>Member</th>
@@ -33,7 +34,6 @@
   </tr>
   </tbody>
 </table>
-</p>
 
 ## Design consepts
 
