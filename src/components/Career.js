@@ -57,8 +57,9 @@ function Career() {
           </li>
           <li>
             praktiline ülesanne – enne vastuvõtu katseid tuleb läbida konkreetne
-            Codecademy kursus: https://www.codecademy.com/learn/learn-python-3
+            Codecademy kursus:
           </li>
+          <a target="_blank" href="https://www.codecademy.com/learn/learn-python-3">https://www.codecademy.com/learn/learn-python-3</a>
           <li class="alert">
             NB! Kursus on tasuline, kuid seitsme päeva jooksul on võimalik
             kursust tasuta läbida
