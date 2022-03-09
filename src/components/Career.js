@@ -4,6 +4,9 @@ import erialapilt from "../img/ITALOGO.jpg";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
+
+
 function Career() {
   return (
     <div>
@@ -25,7 +28,7 @@ function Career() {
           <h1>TARKVARAARENDAJA</h1>
         </div>
         <div class="careerintro">
-          <h2>
+          <p>
             Tarkvaaraarendaja on kõrgelt hinnatud spetsialist nii Eestis kui ka
             välismaal ja just VOCOs on Sul võimalik selline eriala omandada.
             Tarkvaraarenduse õpilasena on Su nädal alati tihedalt sisustatud,
@@ -38,15 +41,15 @@ function Career() {
             maailma edasiviiv IT lahendus? Muidugi ei puudu erialased võistlused
             nii kooli siseselt kui ka üle Eesti. Miks mitte panna ennast vahel
             proovile?
-          </h2>
-          <h2>
+          </p>
+          <p>
             Õpilasena on Sul võimalus kaasarääkida oma õppekava raames ning anda
             õpetajatele tagasisidet. VOCO IT Akadeemia erialade õpetajad
             hindavad kõrgelt pealehakkamist ning aktiivust. Jah, Sa võid isegi
             tihti ebaõnnestuda aga alati aidatakse Sind püsti ning antakse uus
             hoog. Kedagi ei jäeta maha. Kui Sul on tahe ja soov olla tuleviku
             tarkvaaraarendaja, siis see eriala on just sulle!
-          </h2>
+          </p>
 
           <h1> Vastuvõtutingimused on: </h1>
           <li>individuaalvestlus või grupivestlus;</li>
@@ -60,7 +63,6 @@ function Career() {
             Codecademy kursus: https://www.codecademy.com/learn/learn-python-3
           </li>
           <li class="alert">
-            {" "}
             NB! Kursus on tasuline, kuid seitsme päeva jooksul on võimalik
             kursust tasuta läbida
           </li>
@@ -69,8 +71,11 @@ function Career() {
             Codecademy kasutajanimi.
           </li>
         </div>
-        <div class="applybut">
-          <a href="#">ASTU SISSE!</a>
+        <div class="button" id="button-7">
+            <div id="dub-arrow">
+              <img src="https://cdn-icons-png.flaticon.com/512/2942/2942924.png" alt="" />
+            </div>
+            <a href="#">ASTU SISSE!</a>
         </div>
       </div>
       <Footer />
