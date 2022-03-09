@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Career from "./components/Career";
-import Career2 from "./components/Career2";
 
 ReactDOM.render(
   <React.StrictMode>

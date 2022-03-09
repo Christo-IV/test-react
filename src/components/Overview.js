@@ -29,7 +29,7 @@ function Overview({ speciality }) {
         to={`/career/${speciality.abbreviation}`}
         className="apply-btn shadow"
       >
-        Sisseastumine
+        Loe lähemalt
       </Link>
     </div>
   );
