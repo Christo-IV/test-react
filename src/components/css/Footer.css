@@ -58,3 +58,7 @@
 .footer-bottom {
   padding: 1.8rem;
 }
+
+.footer-bottom p {
+  margin: 0;
+}
