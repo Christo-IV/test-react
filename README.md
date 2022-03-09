@@ -1,5 +1,9 @@
 # Aasta Tegija 2022
 
+![IT Akadeemia](https://opik.fyysika.ee/media/img/exp/id-306115.v-2coxx.w-1400.png)
+
+![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
+
 **Team members**  |
 ------------- |
 Henry-Gerret Grüning  |
