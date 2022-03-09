@@ -37,4 +37,9 @@ import "./css/Events.css";
   background-color: var(--txt-color);
   padding: 10px;
   border-radius: 3px;
+  @media (max-width:500px) {
+      max-width: 100%;
+  }
+
+
 `;
