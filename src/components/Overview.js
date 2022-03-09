@@ -1,5 +1,6 @@
 import "./css/Overview.css";
 import placeholderImg from "../img/ITALOGO.jpg";
+import { Link } from "react-router-dom";
 
 function Overview({ speciality }) {
   function getImg() {
@@ -24,7 +25,9 @@ function Overview({ speciality }) {
         <h2 className="speciality-name shadow">{speciality.title}</h2>
         <p className="desc shadow">{speciality.desc}</p>
       </div>
-      <button className="apply-btn shadow">Sisseastumine</button>
+      <Link to="/career" className="apply-btn shadow">
+        Sisseastumine
+      </Link>
     </div>
   );
 }

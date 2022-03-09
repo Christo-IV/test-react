@@ -1,16 +1,14 @@
-
-.part1{
-    display:flex;
-    padding:0;
+.part1 {
+  display: flex;
+  padding: 0;
+  margin-top: 12rem;
 }
 
-
-.careerpicture{
-    width: 70%;
+.careerpicture {
+  width: 70%;
 }
 
 .why{
-    
     color: white;
     padding: 2%;
     vertical-align: center;
@@ -25,14 +23,14 @@
     margin-top:50%;
 }
 
-.part2{
-    margin-top: 2%;
-    display:flex;
-    width: 70%;
-    margin-left: 2%;
-    margin-right: 2%;
-    flex-direction: column;
-    margin-bottom: 10%;
+.part2 {
+  margin-top: 2%;
+  display: flex;
+  width: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-direction: column;
+  margin-bottom: 10%;
 }
 
 .careername{
@@ -43,15 +41,14 @@
     font-size: 25px;
 }
 
-.careerintro{
-    margin-top: 2%;
-    width: 90%;
-    height: relative;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    align-self: Center;
-    font-size: 10px;
-    
+.careerintro {
+  margin-top: 2%;
+  width: 90%;
+  height: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  align-self: Center;
+  font-size: 10px;
 }
 
 .careerintro p,h1{
@@ -90,11 +87,11 @@
     border-radius: 25px;
     font-weight: bold;
   }
+
 .button a{
     text-decoration: none;
     color:#2dc5f4
 }
-  
 
 #button-7 {
     position: relative;
