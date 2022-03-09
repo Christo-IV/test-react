@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../img/IT-kool_No_Background.svg";
 import "./css/Header.css";
 
@@ -64,11 +65,13 @@ function Header() {
             <a href="#">Uudised</a>
           </li>
         </ul>
-        <img
-          className="logo"
-          src={logo}
-          alt="Tartu Rakendusliku Kolledži logo"
-        />
+        <Link to="/">
+          <img
+            className="logo"
+            src={logo}
+            alt="Tartu Rakendusliku Kolledži logo"
+          />
+        </Link>
       </nav>
     </header>
   );
