@@ -3,15 +3,31 @@
   font-weight: 700;
 }
 
-img{
-  width: 5%;
-}
-
 .footer-top {
   gap: 3rem;
+  padding: 2rem;
   color: var(--negative-txt-color);
   background-color: var(--txt-color);
   padding: 4.7em 0.2rem;
+
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-top > .column {
+    padding: 0 5rem;
+  }
+}
+
+.footer-top img {
+  width: auto;
+  height: 7rem;
+  object-fit: contain;
 }
 
 .footer-top > .column {
