@@ -4,7 +4,7 @@
 
 ![VOCO](https://tartu.ee/sites/default/files/2022-01/voco%20logo-01.png)
 
-## The Team
+## The team
 
 <table align="center">
   <tbody>
@@ -35,6 +35,16 @@
   </tbody>
 </table>
 
+
+## Description
+
+This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend.
+Website users can see **hype text** about these two IT Academy specific courses. They can also see weekly timetables.
+
+## Color information
+
+Color palette can be changed in **src/index.css**
+
 ## Design consepts
 
 <p align="center">
@@ -42,10 +52,10 @@
   <img width="512" height="369" src="https://i.ibb.co/JcdV05r/2.png">
 </p>
 
-## Description
+## Project setup
 
-This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend.
-Website users can see **hype text** about these two IT Academy specific courses. They can also see weekly timetables.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org/)
 
 ## Install dependencies
 
