@@ -10,7 +10,7 @@ Anette Aguraiuja  |
 
 ## Design consepts
 
-![This is an image](https://ibb.co/mR5j3qS)
+![Main page](https://i.ibb.co/TwMfs8r/1.png)
 
 ## Description
 
