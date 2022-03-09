@@ -8,9 +8,13 @@ Andreas Alexander Sütt |
 Sander Paasalu  |
 Anette Aguraiuja  |
 
+## Design consepts
+
+![This is an image](https://ibb.co/mR5j3qS)
+
 ## Description
 
-This project is made with **React** and runs in localhost. It is a website for VOCO IT Academy courses young people without higher education can attend.
+This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend.
 Website users can see **hype text** about these two IT Academy specific courses. They can also see weekly timetables.
 
 ## Getting Started with Create React App
