@@ -9,7 +9,7 @@ import "./css/Events.css";
     // trying to return calendar    
      try {return (             
      <div className="App">                
-      <h1>Calendar</h1>    
+      <h1>Kalender</h1>    
       <CalendarContainer> 
        <Calendar  /> 
        <h1 class="white">Üritused</h1>
