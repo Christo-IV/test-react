@@ -11,7 +11,9 @@ import "./css/Events.css";
      <div className="App">                
       <h1>Kalender</h1>    
       <CalendarContainer> 
+          <div class="calendarcontainer">
        <Calendar  /> 
+       <div class="eventlist">
        <h1 class="white">Üritused</h1>
        <div>
            <li class="school">Kutsevõistlus 08.03.2022 - 09.03.2022</li>
@@ -20,6 +22,8 @@ import "./css/Events.css";
            <li class="outside">Kaleidoskoop 05.05.2022</li>
            <li class="outside">sTARTUp Day 24.08.2022 - 26.08.2022</li>
            
+       </div>
+       </div>
        </div>
        </CalendarContainer>              
         </div>);    
@@ -31,7 +35,7 @@ import "./css/Events.css";
 
      const CalendarContainer = styled.div`
   /* ~~~ container styles ~~~ */
-  max-width: 30%;
+  max-width: 100%;
   margin: auto;
   margin-top: 20px;
   background-color: var(--txt-color);
