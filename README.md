@@ -38,8 +38,8 @@
 
 ## Description
 
-This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend.
-Website users can see **hype text** about these two IT Academy specific courses. They can also see weekly timetables.
+This project is made with **React** and runs in localhost. It is a website for **VOCO IT Academy** courses young people without higher education can attend too.
+Website users can see **hype text** about these two IT Academy specific courses. They can also see week timetable.
 
 ## Color information
 
